@@ -5,6 +5,7 @@
 
 ## ЧТО нужно настроить
 1)Для работы настрой пару ком портов com5-com6
+
 2) Для генерации hex файлов для прошивки в протеусе в CubeIDE надо:
   Project Properties > C/C++ Build > Settings > Build steps > Post-build steps > Command:
   arm-none-eabi-objcopy -O ihex ${ProjName}.elf ${ProjName}.hex
