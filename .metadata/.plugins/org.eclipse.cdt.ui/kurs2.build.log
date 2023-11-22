@@ -1,0 +1,10 @@
+02:58:02 **** Incremental Build of configuration Debug for project kurs2 ****
+make -j28 all 
+arm-none-eabi-size   kurs2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10084	     20	   1788	  11892	   2e74	kurs2.elf
+Finished building: default.size.stdout
+ 
+
+02:58:02 Build Finished. 0 errors, 0 warnings. (took 353ms)
+
